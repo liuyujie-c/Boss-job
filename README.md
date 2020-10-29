@@ -1,8 +1,8 @@
-# Boss-python说明文档
+# Boss-job说明文档
 
 ## 介绍
 
-Boss-python是一个基于Scrapy的爬虫，是使用selenium自动化测试平台模拟登录Boss直聘网站获取页面数据
+Boss-job是一个基于Scrapy的爬虫，是使用selenium自动化测试平台模拟登录Boss直聘网站获取页面数据
 
 
 
@@ -38,6 +38,7 @@ scrapy crawl python
     "salary" : "6-10K",
     "company" : "童程童美"
 }
+
 {
     "_id" : ObjectId("5f995c04e11cf829dc9bc4e4"),
     "name" : "少儿编程讲师/Python讲师/机器人老师",
@@ -46,6 +47,7 @@ scrapy crawl python
     "salary" : "6-11K",
     "company" : "童程创客教育"
 }
+
 {
     "_id" : ObjectId("5f995c04e11cf829dc9bc4e5"),
     "name" : "python程序员",
@@ -54,6 +56,7 @@ scrapy crawl python
     "salary" : "6-7K",
     "company" : "锦阁装饰"
 }
+
 {
     "_id" : ObjectId("5f995c04e11cf829dc9bc4e6"),
     "name" : "Python开发",
@@ -62,6 +65,7 @@ scrapy crawl python
     "salary" : "6-11K",
     "company" : "绯逸信息"
 }
+
 {
     "_id" : ObjectId("5f995c04e11cf829dc9bc4e7"),
     "name" : "程序员(兼职)",

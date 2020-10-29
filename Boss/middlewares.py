@@ -34,8 +34,8 @@ class SeleniumMiddleware(object):
         url = request.url
         if "ka=header-login" in url:
             opt = webdriver.ChromeOptions()
-            # opt.add_argument("--headless")
-            # opt.add_argument("--disable-gpu")
+            opt.add_argument("--headless")
+            opt.add_argument("--disable-gpu")
             self.driver = webdriver.Chrome(options=opt)
             self.driver.implicitly_wait(20)
             self.driver.get(url)

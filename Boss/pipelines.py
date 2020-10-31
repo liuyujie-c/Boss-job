@@ -20,5 +20,5 @@ class MongodbPipeline(object):
         self.col.insert_one(item)
         return item
 
-    def close_spider(self, psider):
+    def close_spider(self, spider):
         self.client.close()
